@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/hanzo/Programming/Python/crawl_housing_website"
+set -gx VIRTUAL_ENV "/home/hanzo/Programming/Python/crawl_property_websites"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
