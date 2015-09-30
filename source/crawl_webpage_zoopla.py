@@ -7,7 +7,7 @@ import exceptions
 
 
 class CrawlZooplaSite(Crawler):
-    """ Class offers methods to crawl real estate website and display:
+    """ Class offers methods to crawl real estate website and retrieve:
     agent name,
     date property was added to site,
     for-sale or to-rent,
@@ -18,7 +18,7 @@ class CrawlZooplaSite(Crawler):
         self.url_addr = url_addr
 
     def get_agent_name(self):
-        """ Gets the names of the agent that uploaded the property to the site.
+        """ Gets the name of the agent that uploaded the property to the site.
         """
         soup_obj = self._get_html_content()
 
